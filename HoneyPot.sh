@@ -252,7 +252,7 @@ function MONITOR_AND_INFO() {
                     echo -e "[$timestamp]IP address:$ip_address The Country:$country Org name:$organisation Phone-number:$phone_number"
                     echo -e "" >> country_info.txt
                     echo -e "IP address: $ip_address\nCountry: $country\nOrg: $organisation\nPhone: $phone_number" >> country_info.txt
-                    sudo nmap -sV -p 21 $ip_address >> Nmap_scan.txt
+                    sudo nmap -sV  $ip_address >> Nmap_scan.txt
                     echo -e "" >> Nmap_scan.txt  
                     echo "$ip_address" >> processed_ips.txt
                 fi
