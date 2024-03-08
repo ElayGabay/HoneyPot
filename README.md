@@ -23,8 +23,9 @@ Running this script makes your machine vulnerable to attack. It creates a user w
 3. **Run the Script**:
 
     ```bash
-    bash honeypot.sh
+    sudo ./honeypot.sh
     ```
+   must run as root 
 
 4. **Follow the On-Screen Instructions**:
 
